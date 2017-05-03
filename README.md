@@ -1,4 +1,9 @@
-# cs
+# Welcome to bash hacks!
+Below, you'll find the list of programs with their respective readme files.
+
+--------------------------------------
+
+## cs
 
 ### Program Description
 cs is a simple bash function that will perform cd and ls right after
@@ -21,7 +26,7 @@ simply use `cs` just as you would use a normal `cd` command
 
 --------------------------------------
 
-# note
+## note
 
 ### Program Description
 This program is for taking quick notes. All notes will be placed in a
@@ -49,7 +54,7 @@ the first will be ignored.
 
 --------------------------------------
 
-# touchtog
+## touchtog
 
 ### Program Description
 This bash script finds the current enabled state of a touchpad or
@@ -94,7 +99,7 @@ toggle your touchpad.
 
 --------------------------------------
 
-# update
+## update
 
 ### Program Description
 This bash script uses apt and apt-get to update/upgrade all of your
