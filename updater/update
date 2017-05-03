@@ -1,0 +1,20 @@
+#!/bin/bash
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt update
+sudo apt-get -y upgrade
+
+# Uncomment the following line for O.S. updates (not reccomended)
+#sudo apt-get dist-upgrade
+
+# Running sudo apt-get dist-upgrade will not, by itself, upgrade your Ubuntu
+# system to a newer release. In fact, unlike in Debian, apt-get dist-upgrade
+# is not a supported way to upgrade to a new release. In Debian (and in
+# Ubuntu, though it may sometimes fail and is unsupported), changing all the
+# repositories listed in /etc/apt/sources.list to the repositories for the next
+# release and running sudo apt-get dist-upgrade will attempt to upgrade to the
+# next release.
+
+# Because apt-get dist-upgrade can remove package (and install new packages you
+# might not want), it's always best to look through the description of what it
+# intends to do before pressing 'y'.

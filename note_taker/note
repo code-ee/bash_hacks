@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#**********************************************************************#
+# This program is for taking quick notes. Optionally, the user can     #
+# input one argument that will be appended to the end of the filename. #
+# By default, the filename will be the date and time the note was      #
+# taken. All notes will be placed in a directory on the user's         #
+# desktop called "Notes". If the directory doesn't exist, it will be   #
+# created automatically.                                               #
+#                                                                      #
+# Author: Cody Patterson   GitHub: code-ee                             #
+#**********************************************************************#
+
+fp="~/Desktop/Notes"
+dt=$(date '+%d-%m-%y_%H:%M:%S')
+fa="_$1"
+fn=$dt$fa.txt
+
+mkdir -p $fp
+
+touch $fn
+
+# if you prefer using another editor, change 'vim' to 'emacs' or 'nano'
+vim -c 'startinsert' $fn
+
+wait
+
+mv $fn ~/Desktop/Notes
+
+echo "$fn has been saved to $fp"
+
+unset dt; unset fa; unset fn; unset fp;
+
