@@ -1,4 +1,4 @@
-# note
+# - note -
 
 ### Program Description
 This program is for taking quick notes. All notes will be placed in a

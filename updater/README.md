@@ -1,4 +1,4 @@
-# update
+# - update -
 
 ### Program Description
 This bash script uses apt and apt-get to update/upgrade all of your

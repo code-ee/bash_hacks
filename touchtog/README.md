@@ -1,4 +1,4 @@
-# touchtog
+# - touchtog -
 
 ### Program Description
 This bash script finds the current enabled state of a touchpad or

@@ -1,4 +1,4 @@
-# cs
+# - cs -
 
 ### Program Description
 cs is a simple bash function that will perform cd and ls right after
