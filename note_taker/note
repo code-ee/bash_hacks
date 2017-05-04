@@ -11,7 +11,7 @@
 # Author: Cody Patterson   GitHub: code-ee                             #
 #**********************************************************************#
 
-fp="~/Desktop/Notes"
+fp="$HOME/Desktop/Notes"
 dt=$(date '+%d-%m-%y_%H:%M:%S')
 fa="_$1"
 fn=$dt$fa.txt
@@ -20,12 +20,14 @@ mkdir -p $fp
 
 touch $fn
 
-# if you prefer using another editor, change 'vim' to 'emacs' or 'nano'
-vim -c 'startinsert' $fn
+# if you prefer using another editor, use the line with 'vim' or 'emacs'
+nano $fn
+#vim -c 'startinsert' $fn
+#emacs $fn
 
 wait
 
-mv $fn ~/Desktop/Notes
+mv $fn "$(echo $fp)" 
 
 echo "$fn has been saved to $fp"
 

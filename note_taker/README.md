@@ -22,4 +22,6 @@ To install this script, simply run the install.sh via command line:
 After installing, by default, the filename will be the date and time
 the note was taken. Optionally, you can input one argument that
 will be appended to the end of the filename. All other arguments after
-the first will be ignored.
+the first will be ignored. Additionally, you can use another editor by
+using one of the other lines provided in the script. Included is 'vim'
+and 'emacs' but you can use whatever you'd like.
