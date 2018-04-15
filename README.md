@@ -1,5 +1,5 @@
 # Welcome to bash hacks!
-Below, you'll find the list of programs with their respective readme files.
+Below, you'll find the list of programs with their respective README files.
 
 --------------------------------------
 
