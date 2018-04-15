@@ -11,6 +11,8 @@ Personally, I had two touchpad devices (one synaptics, the other the
 physical device) and they had different cases, the physical one is
 what worked for me).
 
+Additionally, this script does not work for VMs. You'll have to be
+running your linux distribution natively.
 
 ### Installation
 To install this script, simply run the install.sh via command line:
